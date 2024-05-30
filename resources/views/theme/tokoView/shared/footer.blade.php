@@ -2,7 +2,7 @@
     <div class="container pt-5">
       <div class="row row-content">
         <div class="col-md-6">
-          <h1 class="logo-brand">Indo <span>Toko</span></h1>
+          <h1 class="logo-brand">Toko <span>Sepeda</span></h1>
           <p>Lorem ipsum dolor sit amet</p>
         </div>
         <div class="col-md-3 mt-4 mt-sm-0">
@@ -23,7 +23,7 @@
       </div>
       <div class="row row-copy mt-4 mt-sm-0">
         <div class="col-md-6">
-          <p>&copy; 2023 IndoToko. All rights reserved.</p>
+          <p>&copy; 2023 TokoSepeda. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-sm-end">
           <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
