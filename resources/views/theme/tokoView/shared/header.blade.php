@@ -35,10 +35,10 @@
               </ul>
             </div>
             <li class="nav-item mt-5 mt-lg-0 text-center">
-              <a class="nav-link btn-second me-lg-3" href="#">Login</a>
+              <a class="nav-link btn-second me-lg-3" href="/login">Login</a>
             </li>
             <li class="nav-item mt-3 mt-lg-0 text-center">
-              <a class="nav-link btn-first" href="#">Register</a>
+              <a class="nav-link btn-first" href="/register">Register</a>
             </li>
           </ul>
         </div>

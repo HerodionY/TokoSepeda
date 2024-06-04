@@ -3,7 +3,10 @@
       <div class="row row-content">
         <div class="col-md-6">
           <h1 class="logo-brand">Toko <span>Sepeda</span></h1>
+
           <p>Toko sepeda ini didirikan tahun 1980, dan sekarang menjadi Toko sepeda paling populer di cilacap.</p>
+
+
         </div>
         <div class="col-md-3 mt-4 mt-sm-0">
           <h3 class="mb-3">Explore</h3>
@@ -22,8 +25,7 @@
         </div>
       </div>
       <div class="row row-copy mt-4 mt-sm-0">
-        <div class="col-md-6">
-          <p>&copy; 2024 TokoSepeda. All rights reserved.</p>
+          <p>&copy; 2023 TokoSepeda. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-sm-end">
           <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
