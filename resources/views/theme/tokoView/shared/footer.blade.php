@@ -23,7 +23,7 @@
       </div>
       <div class="row row-copy mt-4 mt-sm-0">
         <div class="col-md-6">
-          <p>&copy; 2023 IndoToko. All rights reserved.</p>
+          <p>&copy; 2024 TokoSepeda. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-sm-end">
           <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
