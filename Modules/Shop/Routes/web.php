@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Modules\Shop\Http\Controllers\CartController;
 use Illuminate\Support\Facades\Route;
 use Modules\Shop\Http\Controllers\ProductController;
 use Modules\Shop\Http\Controllers\ShopController;
@@ -17,6 +18,8 @@ use Modules\Shop\Http\Controllers\ShopController;
 
 Route::get('/product', [ProductController::class, 'index'])->name('product.index');
 
+
+Route::get('carts',[CartController::class, 'index'])->name('carts.index');
 
 
 Route::prefix('shop')->group(function() {
