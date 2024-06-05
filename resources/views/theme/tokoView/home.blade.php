@@ -77,7 +77,7 @@
             <i class="bx bxs-star"></i>
           </div>
           <div class="detail d-flex justify-content-between align-items-center mt-4">
-              <p class="price">IDR 200.000</p>
+              <p class="price">IDR 400.000</p>
               <a href="#" class="btn-cart"><i class="bx bx-cart-alt"></i></a>
           </div>
         </div>

@@ -3,10 +3,13 @@
       <div class="row row-content">
         <div class="col-md-6">
           <h1 class="logo-brand">Toko <span>Sepeda</span></h1>
-          <p>Lorem ipsum dolor sit amet</p>
+
+          <p>Toko sepeda ini didirikan tahun 1980, dan sekarang menjadi Toko sepeda paling populer di cilacap.</p>
+
+
         </div>
         <div class="col-md-3 mt-4 mt-sm-0">
-          <h3 class="mb-3">Navigation</h3>
+          <h3 class="mb-3">Explore</h3>
           <ul class="p-0">
             <li><a href="#">Home</a></li>
             <li class="mt-3"><a href="#">Best Seller</a></li>
@@ -16,13 +19,12 @@
           </ul>
         </div>
         <div class="col-md-3 mt-4 mt-sm-0">
-          <h3 class="mb-3">Company</h3>
-          <a href="#">john@example.com</a>
-          <p>Jln. Tamansiswa, No 32 Yogyakarta Indonesia</p>
+          <h3 class="mb-3">Kontak</h3>
+          <a href="#">cs@sepedadamai.com</a>
+          <p>Jln. Tamansiswa, No 32 Cilacap Indonesia</p>
         </div>
       </div>
       <div class="row row-copy mt-4 mt-sm-0">
-        <div class="col-md-6">
           <p>&copy; 2023 TokoSepeda. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-sm-end">
