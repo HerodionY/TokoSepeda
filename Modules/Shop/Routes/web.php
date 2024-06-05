@@ -25,3 +25,13 @@ Route::get('carts',[CartController::class, 'index'])->name('carts.index');
 Route::prefix('shop')->group(function() {
     Route::get('/', [ShopController::class, 'index'])->name('shop.index');
 });
+
+// Route::group(['middleware' => ['role:1']], function() { // 1 for admin
+//     Route::get('/admin', 'AdminController@index')->name('admin.dashboard');
+//     // Tambahkan route khusus admin di sini
+// });
+
+// Route::group(['middleware' => ['role:0']], function() { // 0 for customer
+//     Route::get('/customer', 'CustomerController@index')->name('customer.dashboard');
+//     // Tambahkan route khusus customer di sini
+// });
