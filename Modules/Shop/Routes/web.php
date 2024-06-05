@@ -1,5 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use Modules\Shop\Http\Controllers\ProductController;
+use Modules\Shop\Http\Controllers\ShopController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,10 +15,10 @@
 |
 */
 
-use Modules\Shop\Http\Controllers\ProductController;
+Route::get('/product', [ProductController::class, 'index'])->name('product.index');
 
-Route::get('/product',[ProductController::class,'index'])->name('product.index');
+
 
 Route::prefix('shop')->group(function() {
-    Route::get('/', 'ShopController@index');
+    Route::get('/', [ShopController::class, 'index'])->name('shop.index');
 });
