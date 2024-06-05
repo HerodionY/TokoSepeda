@@ -12,21 +12,16 @@ class ProductController extends Controller
      * Display a listing of the resource.
      * @return Renderable
      */
-    public function index()
+    public function index(): Renderable
     {
-        return $this->loadTheme('product.index',$this->data);
-    }
-
-    public function show()
-    {
-
+        return $this->loadTheme('product.index', $this->data);
     }
 
     /**
      * Show the form for creating a new resource.
      * @return Renderable
      */
-    public function create()
+    public function create(): Renderable
     {
         return view('shop::create');
     }
@@ -38,7 +33,7 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Add your logic here
     }
 
     /**
@@ -46,7 +41,7 @@ class ProductController extends Controller
      * @param int $id
      * @return Renderable
      */
-    public function show($id)
+    public function show(int $id): Renderable
     {
         return view('shop::show');
     }
@@ -56,7 +51,7 @@ class ProductController extends Controller
      * @param int $id
      * @return Renderable
      */
-    public function edit($id)
+    public function edit(int $id): Renderable
     {
         return view('shop::edit');
     }
@@ -67,9 +62,9 @@ class ProductController extends Controller
      * @param int $id
      * @return Renderable
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, int $id)
     {
-        //
+        // Add your logic here
     }
 
     /**
@@ -77,8 +72,8 @@ class ProductController extends Controller
      * @param int $id
      * @return Renderable
      */
-    public function destroy($id)
+    public function destroy(int $id)
     {
-        //
+        // Add your logic here
     }
 }
