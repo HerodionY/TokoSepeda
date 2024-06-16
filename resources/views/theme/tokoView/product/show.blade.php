@@ -1,4 +1,4 @@
-@extends('themes.indotoko.layouts.app')
+@extends('theme.tokoView.layouts.app')
 
 @section('content')
 <section class="breadcrumb-section pb-4 pb-md-4 pt-4 pt-md-4">

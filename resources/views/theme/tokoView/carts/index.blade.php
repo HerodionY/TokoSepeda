@@ -1,4 +1,4 @@
-@extends('themes.indotoko.layouts.app')
+@extends('theme.tokoView.layout.app')
 
 @section('content')
 <section class="breadcrumb-section pb-4 pb-md-4 pt-4 pt-md-4">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 col-md-7">
-                        {{ html()->form('PUT', route('carts.update'))->open() }}
+                        {{ Form::open(['route' => ['carts.update'], 'method' => 'PUT']) }}
                         <ul class="list-group list-group-flush">
                             @foreach ($cart->items as $item)
                             <li class="list-group-item py-3 border-top">
@@ -67,7 +67,8 @@
                             <a href="{{ route('products.index') }}" class="btn btn-first">Continue Shopping</a>
                             <button type="submit" class="btn btn-second">Update Cart</button>
                         </div>
-                        {{ html()->form()->close() }}
+                        {{ Form::close() }}
+
                     </div>
                     <div class="col-12 col-lg-4 col-md-5">
                         <div class="mb-5 card mt-6 shadow">
