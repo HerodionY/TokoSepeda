@@ -72,7 +72,7 @@ class ProductController extends Controller
         
         $this->data['products'] = $this->productRepository->findAll($options);
         
-        return $this->loadTheme('products.index', $this->data);
+        return $this->loadTheme('product.index', $this->data);
     }
 
     public function category($categorySlug)
