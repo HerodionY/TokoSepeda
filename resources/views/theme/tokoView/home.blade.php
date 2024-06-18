@@ -16,7 +16,7 @@
     <div class="row mt-5">
       <div class="col-lg-3 col-6">
         <div class="card card-body p-lg-4 p3">
-          <a href="#"><img src="{{ asset('themes/indotoko/assets/img/shop_01.jpg') }}" alt="" class="img-fluid"></a>
+          {{-- <a href="#"><img src="{{ asset('themes/indotoko/assets/img/shop_01.jpg') }}" alt="" class="img-fluid"></a> --}}
           <h3 class="product-name mt-3">Product 1</h3>
           <div class="rating">
             <i class="bx bxs-star"></i>
@@ -77,7 +77,7 @@
             <i class="bx bxs-star"></i>
           </div>
           <div class="detail d-flex justify-content-between align-items-center mt-4">
-              <p class="price">IDR 200.000</p>
+              <p class="price">IDR 400.000</p>
               <a href="#" class="btn-cart"><i class="bx bx-cart-alt"></i></a>
           </div>
         </div>
