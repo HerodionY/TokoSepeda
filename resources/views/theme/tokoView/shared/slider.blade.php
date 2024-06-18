@@ -1,4 +1,4 @@
-<div class="container menu-wrapper fixed-top d-none d-lg-block">
+<div class="container menu-wrapper d-none d-lg-block">
     <div class="menu d-flex justify-content-center align-items-center">
     <a class="nav-link active" href="#">Home</a>
     <a class="nav-link" href="#">Best Seller</a>
@@ -8,19 +8,20 @@
   </div>
   
   <!-- Header -->
-  <section class="header">
-    <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <section class="header rounded" style="margin-top: 30px">
+    <div class="container rounded">
+    <div id="carouselExampleIndicators" class="carousel slide rounded" data-bs-ride="carousel">
         <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
         <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ asset('theme/tokoVIew/assets/img/slide1.jpg') }}" class="d-block w-100" alt="slide 1">
+            <img src="img/Sepeda.jpg" class="d-block w-100 h-70 rounded" alt="slide 1">
         </div>
-        <div class="carousel-item">
-            <img src="{{ asset('theme/tokoView/assets/img/slide2.jpg') }}" class="d-block w-100" alt="slide 2">
+        <div class="carousel-item rounded">
+            <img src="img/lead.jpg" class="d-block w-100 h-70 rounded" alt="slide 1">
+            {{-- <img src="{{ asset('theme/tokoView/assets/img/slide2.jpg') }}" class="d-block w-100" alt="slide 2"> --}}
         </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
